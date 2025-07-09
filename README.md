@@ -1,15 +1,15 @@
 # ML-Analise-Credito
-# SBank: An·lise de CrÈdito com Machine Learning
+# SBank: An√°lise de Cr√©dito com Machine Learning
 
-## DescriÁ„o do Projeto
+## Descri√ß√£o do Projeto
 
-Este projeto foi desenvolvido como parte da disciplina de InteligÍncia Artificial e tem como objetivo principal a criaÁ„o de uma soluÁ„o automatizada para an·lise de risco de crÈdito, voltada para o banco digital fictÌcio SBank.
+Este projeto foi desenvolvido como parte da disciplina de Intelig√™ncia Artificial e tem como objetivo principal a cria√ß√£o de uma solu√ß√£o automatizada para an√°lise de risco de cr√©dito, voltada para o banco digital fict√≠cio SBank.
 
-A aplicaÁ„o utiliza tÈcnicas de aprendizado de m·quina para prever a probabilidade de aprovaÁ„o de clientes para solicitaÁ„o de cart„o de crÈdito. O modelo escolhido para essa tarefa foi o Random Forest, devido ‡ sua robustez, capacidade de lidar com dados categÛricos e boa performance em classificaÁıes bin·rias.
+A aplica√ß√£o utiliza t√©cnicas de aprendizado de m√°quina para prever a probabilidade de aprova√ß√£o de clientes para solicita√ß√£o de cart√£o de cr√©dito. O modelo escolhido para essa tarefa foi o Random Forest, devido √† sua robustez, capacidade de lidar com dados categ√≥ricos e boa performance em classifica√ß√µes bin√°rias.
 
-Com base nos dados cadastrais dos clientes o sistema È capaz de avaliar, de forma preditiva, o risco associado a cada perfil. Essa soluÁ„o pode ser utilizada para auxiliar a equipe de crÈdito do banco na tomada de decisıes mais r·pidas, eficientes e baseadas em dados.
+Com base nos dados cadastrais dos clientes o sistema √© capaz de avaliar, de forma preditiva, o risco associado a cada perfil. Essa solu√ß√£o pode ser utilizada para auxiliar a equipe de cr√©dito do banco na tomada de decis√µes mais r√°pidas, eficientes e baseadas em dados.
 
-## Como Executar a AplicaÁ„o
+## Como Executar a Aplica√ß√£o
 
 Para executar a interface interativa, siga os passos abaixo a partir da pasta raiz do projeto.
 
@@ -21,22 +21,27 @@ Para executar a interface interativa, siga os passos abaixo a partir da pasta ra
     .\.venv\Scripts\Activate.ps1
     ```
 
-2.  **Instale as dependÍncias:**
+2.  **Instale as depend√™ncias:**
     ```bash
     pip install -r requirements.txt
     ```
-    *Nota: Se estiver a usar o Git LFS pela primeira vez, pode ser necess·rio instalar o cliente do [site oficial](https://git-lfs.github.com/) e executar `git lfs install`.*
+    *Nota: Se estiver a usar o Git LFS pela primeira vez, pode ser necess√°rio instalar o cliente do [site oficial](https://git-lfs.github.com/) e executar `git lfs install`.*
 
 
-3.  **Execute a aplicaÁ„o Streamlit:**
+3.  **Execute a aplica√ß√£o Streamlit:**
     ```bash
     streamlit run src/app.py
     ```
-A aplicaÁ„o ser· aberta automaticamente no seu navegador.
+A aplica√ß√£o ser√° aberta automaticamente no seu navegador.
+![image](https://github.com/user-attachments/assets/59bbc15b-cf15-4041-8d2a-8e42b2e4bf2c)
+
+![image](https://github.com/user-attachments/assets/a14e04bc-9f6b-41f6-aca5-cbb9bca826d8)
+![image](https://github.com/user-attachments/assets/bfaa7e69-f936-422e-909f-32a76e86d880)
+
 
 ## Estrutura do Projeto
 
-* `/dados`: ContÈm os datasets originais fornecidos.
-* `/notebooks`: ContÈm o notebook `analise_exploratoria.ipynb` com todo o processo de an·lise, limpeza de dados e experimentaÁ„o de modelos.
-* `/src`: ContÈm o cÛdigo fonte da aplicaÁ„o (`app.py`) e o modelo de Machine Learning salvo (`modelo_sbank_rf.pkl`).
-* `requirements.txt`: Lista de todas as bibliotecas Python necess·rias para o projeto.
+* `/dados`: Cont√©m os datasets originais fornecidos.
+* `/notebooks`: Cont√©m o notebook `analise_exploratoria.ipynb` com todo o processo de an√°lise, limpeza de dados e experimenta√ß√£o de modelos.
+* `/src`: Cont√©m o c√≥digo fonte da aplica√ß√£o (`app.py`) e o modelo de Machine Learning salvo (`modelo_sbank_rf.pkl`).
+* `requirements.txt`: Lista de todas as bibliotecas Python necess√°rias para o projeto.
