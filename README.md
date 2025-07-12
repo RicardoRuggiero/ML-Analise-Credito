@@ -45,3 +45,4 @@ A aplicação será aberta automaticamente no seu navegador.
 * `/notebooks`: Contém o notebook `analise_exploratoria.ipynb` com todo o processo de análise, limpeza de dados e experimentação de modelos.
 * `/src`: Contém o código fonte da aplicação (`app.py`) e o modelo de Machine Learning salvo (`modelo_sbank_rf.pkl`).
 * `requirements.txt`: Lista de todas as bibliotecas Python necessárias para o projeto.
+.
