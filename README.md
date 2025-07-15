@@ -34,7 +34,7 @@ Para executar a interface interativa, siga os passos abaixo a partir da pasta ra
     ```
 A aplicação será aberta automaticamente no seu navegador.
 ![image](https://github.com/user-attachments/assets/59bbc15b-cf15-4041-8d2a-8e42b2e4bf2c)
-
+<img width="1503" height="582" alt="image" src="https://github.com/user-attachments/assets/1e49cd16-0987-4c33-8126-27dad7dac42e" />
 ![image](https://github.com/user-attachments/assets/a14e04bc-9f6b-41f6-aca5-cbb9bca826d8)
 ![image](https://github.com/user-attachments/assets/bfaa7e69-f936-422e-909f-32a76e86d880)
 
