@@ -46,3 +46,4 @@ A aplicação será aberta automaticamente no seu navegador.
 * `/src`: Contém o código fonte da aplicação (`app.py`) e o modelo de Machine Learning salvo (`modelo_sbank_rf.pkl`).
 * `requirements.txt`: Lista de todas as bibliotecas Python necessárias para o projeto.
 .
+.
